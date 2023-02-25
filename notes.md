@@ -1,0 +1,1 @@
+a function is a block of instruction made to achieve a purpose. It is a block of instructions. To create function, we use a special word in javascript that we call function and in front of function, we put the name of the function to identify this function. That helps the code to know what he is doing really.
