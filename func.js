@@ -1,13 +1,23 @@
-function getMilk() {
-  alert("leave House");
-  alert("Moove right");
-  alert("Mooveright");
-  alert("leave House");
-  alert("Moove right");
-  alert("Moove right");
-  alert("leave House");
-  alert("Moove right");
-  alert("Moove right");
-  alert("buy milk for mother");
+function wake(){
+    console.log('stop and squeeze');
+    console.log('stop and release');
 }
-getMilk();
+
+function getMilk(money) {
+  console.log("Leave House");
+  console.log("Moove right");
+  console.log("Moove right");
+  console.log("Leave House");
+  console.log("Moove right");
+  wake();
+  console.log("Moove right");
+  console.log("Leave House");
+  console.log("Moove right");
+  console.log("Moove right");
+  console.log("Buy milk for mother");
+
+  var numberOfBottle = Math.floor(money/1.5);
+  console.log("buy "+ numberOfBottle + " bottle of milk")
+} 
+
+getMilk(2);
