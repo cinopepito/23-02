@@ -81,3 +81,5 @@ let inventory = [
 ];
 inventory[1].name = "barre de fer";
 console.log(inventory);
+
+
