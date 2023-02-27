@@ -26,3 +26,37 @@ function change(startingMoney, costBottle) {
   let change = startingMoney % costBottle;
   return change;
 }
+
+// let someArray = ["Mike", "Antal", "Marc", "Emir", "Louiza", "Jacky"];
+// let notFound = true;
+// while (notFound && someArray.length > 0) {
+//   if (someArray[0] === "Louiza") {
+//     console.log("Found her!");
+//     notFound = false;
+//   } else {
+//     someArray.shift();
+//   }
+// }
+
+// let maxGuess = 5;
+// let randomNum = Math.floor(Math.random() * 5) + 1;
+// console.log(randomNum);
+// let guess = Number(prompt("Enter number between 1 and 5"));
+// if (guess < randomNum) {
+//   alert("higher");
+// } else if (guess > randomNum) {
+//   alert("lower");
+// } else {
+//   alert("yes good guess");
+// }
+
+let count = 100;
+while (count > 1) {
+  console.log("number " + count);
+  count--;
+}
+let arr = [];
+for(let i=110;i>1;i--){
+    arr.push(i)
+}
+console.log(arr)
